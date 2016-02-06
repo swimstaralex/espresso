@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF5E2321C5A87B00090E06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5E2311C5A87B00090E06D /* AppDelegate.swift */; };
+		FAF5E2341C5A87B00090E06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF5E2331C5A87B00090E06D /* Assets.xcassets */; };
+		FAF5E2371C5A87B00090E06D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF5E2351C5A87B00090E06D /* MainMenu.xib */; };
+		FAF5E2421C5A87B00090E06D /* espressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5E2411C5A87B00090E06D /* espressoTests.swift */; };
+		FAF5E24D1C5A87B00090E06D /* espressoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5E24C1C5A87B00090E06D /* espressoUITests.swift */; };
+		FAFFB99C1C5BD0BD0024020F /* SettinfsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */; };
+		FAFFB99F1C5BD4540024020F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB99D1C5BD4540024020F /* RootViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF5E23E1C5A87B00090E06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF5E2261C5A87B00090E06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF5E22D1C5A87B00090E06D;
+			remoteInfo = espresso;
+		};
+		FAF5E2491C5A87B00090E06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF5E2261C5A87B00090E06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF5E22D1C5A87B00090E06D;
+			remoteInfo = espresso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF5E22E1C5A87B00090E06D /* espresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = espresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF5E2311C5A87B00090E06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF5E2331C5A87B00090E06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF5E2361C5A87B00090E06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAF5E2381C5A87B00090E06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF5E23D1C5A87B00090E06D /* espressoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = espressoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF5E2411C5A87B00090E06D /* espressoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = espressoTests.swift; sourceTree = "<group>"; };
+		FAF5E2431C5A87B00090E06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF5E2481C5A87B00090E06D /* espressoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = espressoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF5E24C1C5A87B00090E06D /* espressoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = espressoUITests.swift; sourceTree = "<group>"; };
+		FAF5E24E1C5A87B00090E06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettinfsView.swift; sourceTree = "<group>"; };
+		FAFFB99D1C5BD4540024020F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF5E22B1C5A87B00090E06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E23A1C5A87B00090E06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E2451C5A87B00090E06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF5E2251C5A87B00090E06D = {
+			isa = PBXGroup;
+			children = (
+				FAF5E2301C5A87B00090E06D /* espresso */,
+				FAF5E2401C5A87B00090E06D /* espressoTests */,
+				FAF5E24B1C5A87B00090E06D /* espressoUITests */,
+				FAF5E22F1C5A87B00090E06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF5E22F1C5A87B00090E06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5E22E1C5A87B00090E06D /* espresso.app */,
+				FAF5E23D1C5A87B00090E06D /* espressoTests.xctest */,
+				FAF5E2481C5A87B00090E06D /* espressoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF5E2301C5A87B00090E06D /* espresso */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5E2311C5A87B00090E06D /* AppDelegate.swift */,
+				FAF5E2331C5A87B00090E06D /* Assets.xcassets */,
+				FAF5E2351C5A87B00090E06D /* MainMenu.xib */,
+				FAF5E2381C5A87B00090E06D /* Info.plist */,
+				FAFFB99D1C5BD4540024020F /* RootViewController.swift */,
+				FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */,
+			);
+			path = espresso;
+			sourceTree = "<group>";
+		};
+		FAF5E2401C5A87B00090E06D /* espressoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5E2411C5A87B00090E06D /* espressoTests.swift */,
+				FAF5E2431C5A87B00090E06D /* Info.plist */,
+			);
+			path = espressoTests;
+			sourceTree = "<group>";
+		};
+		FAF5E24B1C5A87B00090E06D /* espressoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5E24C1C5A87B00090E06D /* espressoUITests.swift */,
+				FAF5E24E1C5A87B00090E06D /* Info.plist */,
+			);
+			path = espressoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF5E22D1C5A87B00090E06D /* espresso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF5E2511C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espresso" */;
+			buildPhases = (
+				FAF5E22A1C5A87B00090E06D /* Sources */,
+				FAF5E22B1C5A87B00090E06D /* Frameworks */,
+				FAF5E22C1C5A87B00090E06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = espresso;
+			productName = espresso;
+			productReference = FAF5E22E1C5A87B00090E06D /* espresso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF5E23C1C5A87B00090E06D /* espressoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF5E2541C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espressoTests" */;
+			buildPhases = (
+				FAF5E2391C5A87B00090E06D /* Sources */,
+				FAF5E23A1C5A87B00090E06D /* Frameworks */,
+				FAF5E23B1C5A87B00090E06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF5E23F1C5A87B00090E06D /* PBXTargetDependency */,
+			);
+			name = espressoTests;
+			productName = espressoTests;
+			productReference = FAF5E23D1C5A87B00090E06D /* espressoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF5E2471C5A87B00090E06D /* espressoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF5E2571C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espressoUITests" */;
+			buildPhases = (
+				FAF5E2441C5A87B00090E06D /* Sources */,
+				FAF5E2451C5A87B00090E06D /* Frameworks */,
+				FAF5E2461C5A87B00090E06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF5E24A1C5A87B00090E06D /* PBXTargetDependency */,
+			);
+			name = espressoUITests;
+			productName = espressoUITests;
+			productReference = FAF5E2481C5A87B00090E06D /* espressoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF5E2261C5A87B00090E06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = swimStarAlex;
+				TargetAttributes = {
+					FAF5E22D1C5A87B00090E06D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAF5E23C1C5A87B00090E06D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAF5E22D1C5A87B00090E06D;
+					};
+					FAF5E2471C5A87B00090E06D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAF5E22D1C5A87B00090E06D;
+					};
+				};
+			};
+			buildConfigurationList = FAF5E2291C5A87B00090E06D /* Build configuration list for PBXProject "espresso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF5E2251C5A87B00090E06D;
+			productRefGroup = FAF5E22F1C5A87B00090E06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF5E22D1C5A87B00090E06D /* espresso */,
+				FAF5E23C1C5A87B00090E06D /* espressoTests */,
+				FAF5E2471C5A87B00090E06D /* espressoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF5E22C1C5A87B00090E06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF5E2341C5A87B00090E06D /* Assets.xcassets in Resources */,
+				FAF5E2371C5A87B00090E06D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E23B1C5A87B00090E06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E2461C5A87B00090E06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF5E22A1C5A87B00090E06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFB99C1C5BD0BD0024020F /* SettinfsView.swift in Sources */,
+				FAF5E2321C5A87B00090E06D /* AppDelegate.swift in Sources */,
+				FAFFB99F1C5BD4540024020F /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E2391C5A87B00090E06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF5E2421C5A87B00090E06D /* espressoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5E2441C5A87B00090E06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF5E24D1C5A87B00090E06D /* espressoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF5E23F1C5A87B00090E06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF5E22D1C5A87B00090E06D /* espresso */;
+			targetProxy = FAF5E23E1C5A87B00090E06D /* PBXContainerItemProxy */;
+		};
+		FAF5E24A1C5A87B00090E06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF5E22D1C5A87B00090E06D /* espresso */;
+			targetProxy = FAF5E2491C5A87B00090E06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF5E2351C5A87B00090E06D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF5E2361C5A87B00090E06D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF5E24F1C5A87B00090E06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF5E2501C5A87B00090E06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF5E2521C5A87B00090E06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espresso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF5E2531C5A87B00090E06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espresso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF5E2551C5A87B00090E06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espressoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/espresso.app/Contents/MacOS/espresso";
+			};
+			name = Debug;
+		};
+		FAF5E2561C5A87B00090E06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espressoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/espresso.app/Contents/MacOS/espresso";
+			};
+			name = Release;
+		};
+		FAF5E2581C5A87B00090E06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espressoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espressoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = espresso;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAF5E2591C5A87B00090E06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = espressoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swimStar.espressoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = espresso;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF5E2291C5A87B00090E06D /* Build configuration list for PBXProject "espresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5E24F1C5A87B00090E06D /* Debug */,
+				FAF5E2501C5A87B00090E06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF5E2511C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5E2521C5A87B00090E06D /* Debug */,
+				FAF5E2531C5A87B00090E06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF5E2541C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espressoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5E2551C5A87B00090E06D /* Debug */,
+				FAF5E2561C5A87B00090E06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF5E2571C5A87B00090E06D /* Build configuration list for PBXNativeTarget "espressoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5E2581C5A87B00090E06D /* Debug */,
+				FAF5E2591C5A87B00090E06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF5E2261C5A87B00090E06D /* Project object */;
+}
