@@ -12,7 +12,6 @@
 		FAF5E2371C5A87B00090E06D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF5E2351C5A87B00090E06D /* MainMenu.xib */; };
 		FAF5E2421C5A87B00090E06D /* espressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5E2411C5A87B00090E06D /* espressoTests.swift */; };
 		FAF5E24D1C5A87B00090E06D /* espressoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5E24C1C5A87B00090E06D /* espressoUITests.swift */; };
-		FAFFB99C1C5BD0BD0024020F /* SettinfsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */; };
 		FAFFB99F1C5BD4540024020F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB99D1C5BD4540024020F /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		FAF5E2481C5A87B00090E06D /* espressoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = espressoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF5E24C1C5A87B00090E06D /* espressoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = espressoUITests.swift; sourceTree = "<group>"; };
 		FAF5E24E1C5A87B00090E06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettinfsView.swift; sourceTree = "<group>"; };
 		FAFFB99D1C5BD4540024020F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +100,6 @@
 				FAF5E2351C5A87B00090E06D /* MainMenu.xib */,
 				FAF5E2381C5A87B00090E06D /* Info.plist */,
 				FAFFB99D1C5BD4540024020F /* RootViewController.swift */,
-				FAFFB99B1C5BD0BD0024020F /* SettinfsView.swift */,
 			);
 			path = espresso;
 			sourceTree = "<group>";
@@ -255,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFFB99C1C5BD0BD0024020F /* SettinfsView.swift in Sources */,
 				FAF5E2321C5A87B00090E06D /* AppDelegate.swift in Sources */,
 				FAFFB99F1C5BD4540024020F /* RootViewController.swift in Sources */,
 			);
